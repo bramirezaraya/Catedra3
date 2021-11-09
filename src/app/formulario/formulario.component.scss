@@ -1,0 +1,41 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifM;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+.form-control{
+    margin-top: 15px;
+}
+.form-check{
+    margin: 10px;
+}
+
+#tiempo label{
+    margin-bottom: 10px;
+}
+
+#tiempo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#campos{
+    background-color: white;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ #dia, #region{
+
+    margin-top: 10px;
+    margin-bottom: 13px;
+    width: 30%;
+
+ }

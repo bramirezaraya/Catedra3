@@ -1,0 +1,25 @@
+
+
+<div>
+    <div class="Barra">
+        <img src="../../assets/clima.jpg" width="80px" height="80px">
+        <h2>Clima</h2>
+    </div>
+    <div class="final">
+    </div>
+</div>
+
+
+
+<div class="navegador">
+    <div>
+        <div class="barra" *ngFor="let region of listaRegiones;">
+                <a routerLink="region/{{region.nombre}}">{{region.nombre}}</a>
+        </div>
+    </div>
+</div>
+
+<div class="nav">
+    <a routerLink="" >Celcius</a>
+    <a routerLink="inicioFahrenheit" >Fahrenheit</a>
+</div>

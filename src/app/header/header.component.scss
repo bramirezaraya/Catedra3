@@ -1,0 +1,29 @@
+.navegador{
+    display:block;
+    height: 50px;
+    border: solid 2px black;
+    width: 500px;
+}
+
+.barra{
+    float: left;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.nav{
+    margin: 5px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+}
+
+.nav a{
+    font-size: 25px;
+}

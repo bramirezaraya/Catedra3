@@ -1,0 +1,14 @@
+
+
+
+<div class="barra">
+    <div class="navegador" *ngFor="let clima of listaClima;">
+
+        <a [routerLink]="['/formulario']" routerLinkActive="router-link-active" >{{clima.dia}}</a>
+        <br>
+        <img src="../../assets/{{clima.imagen}}" width="80px" height="80px">
+        <p>{{clima.temperatura * 1.8 + 32}}°F</p>
+        <p>{{clima.estadoDelClima}}</p>
+
+    </div>
+</div>
